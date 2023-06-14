@@ -1,4 +1,4 @@
-package com.education.Information_Lookup.entity;
+package com.education.Information_Lookup.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,12 +28,12 @@ public class School implements Serializable {
     private String name;
 
     @Column(name = "date")
+    @Temporal(TemporalType.DATE)
     private Date date;
 
     @Column(name = "note")
     private String note;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "type_id")
-    private Type type;
+    @Column(name = "type")
+    private String type;
 }

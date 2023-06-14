@@ -1,4 +1,4 @@
-package com.education.Information_Lookup.entity;
+package com.education.Information_Lookup.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,6 +24,7 @@ public class Student implements Serializable {
     private String name;
 
     @Column(name = "birthday")
+    @Temporal(TemporalType.DATE)
     private Date birthday;
 
     @Column(name = "birthplace")
@@ -48,6 +49,7 @@ public class Student implements Serializable {
     private String originalDiplomaRegistrationNumber;
 
     @Column(name = "date_sign")
+    @Temporal(TemporalType.DATE)
     private Date dateSign;
 
     @ManyToOne(fetch = FetchType.LAZY)

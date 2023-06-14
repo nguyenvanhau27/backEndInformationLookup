@@ -1,6 +1,6 @@
 package com.education.Information_Lookup.repository;
 
-import com.education.Information_Lookup.entity.DegreeCertificationDecisionSchool;
+import com.education.Information_Lookup.data.entity.DegreeCertificationDecisionSchool;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

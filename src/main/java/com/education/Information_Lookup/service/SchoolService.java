@@ -1,6 +1,6 @@
 package com.education.Information_Lookup.service;
 
-import com.education.Information_Lookup.entity.School;
+import com.education.Information_Lookup.data.entity.School;
 import com.education.Information_Lookup.repository.SchoolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

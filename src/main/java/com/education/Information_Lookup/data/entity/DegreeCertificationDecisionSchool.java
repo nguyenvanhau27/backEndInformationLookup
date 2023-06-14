@@ -1,4 +1,4 @@
-package com.education.Information_Lookup.entity;
+package com.education.Information_Lookup.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

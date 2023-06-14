@@ -1,16 +1,15 @@
-package com.education.Information_Lookup.entity;
+package com.education.Information_Lookup.data.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Date;
 
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class FilterDTO {
+public class FilterDto {
 
     private String year;
     private String name;
