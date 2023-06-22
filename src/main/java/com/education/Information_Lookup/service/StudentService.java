@@ -19,7 +19,6 @@ public class StudentService {
     public FilterDto findStudentsByCriteria(String year, String certificateAuthentication,
                                             String identification, Integer schoolId,
                                             String studentName, Date birthday) {
-
         Student student = this.studentRepository.findStudentsByCriteria(year, certificateAuthentication,
                 identification, studentName, birthday, schoolId);
 
