@@ -1,8 +1,8 @@
 Spring:
   datasource:
     username: root
-    password: 123456
-    url: jdbc:mysql://localhost:3306/information_lookup_v1
+    password: L17AHU13iUDNOTxUz8BO
+    url: mysql://root:L17AHU13iUDNOTxUz8BO@containers-us-west-104.railway.app:7062/railway
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
